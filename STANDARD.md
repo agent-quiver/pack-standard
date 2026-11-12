@@ -36,11 +36,11 @@ evals/<artifact-id>/      representative tasks and the expected behaviour
 
 ### Skill references
 
-A skill reference is `/name` written as its own code span (`` `/orient` ``, optionally followed by arguments,
+A skill reference is `/<name>` written as its own code span (`` `/orient` ``, optionally followed by arguments,
 `` `/adr new` ``), or at the start of a line, after any indentation, inside a fenced code block. It names a skill
-in the same pack and must resolve to one: `name` is that skill's directory.
+in the same pack and must resolve to one: `<name>` is that skill's directory.
 
-Anything else that begins with a slash is written so that it is not a lone `/name`: a URL path with its method or
+Anything else that begins with a slash is written so that it is not a lone `/<name>`: a URL path with its method or
 host (`` `GET /healthz` ``), a file path with its directory (`` `./scripts/check.py` ``). A skill in another pack is
 named in prose with its pack id. Version 1.x has no cross-pack reference syntax.
 
