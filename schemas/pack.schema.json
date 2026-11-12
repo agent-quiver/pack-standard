@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/agent-quiver/pack-standard/main/schemas/pack.schema.json",
+  "$id": "https://agent-quiver.github.io/schemas/v1/pack.schema.json",
   "title": "Quiver pack manifest (quiver-pack.yaml)",
   "description": "The Quiver pack standard: one forge repository is one pack. Protocol-neutral.",
   "type": "object",

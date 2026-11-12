@@ -9,6 +9,9 @@ to agents.
 - [`schemas/pack.schema.json`](schemas/pack.schema.json): the pack manifest, `quiver-pack.yaml`.
 - [`schemas/manifest.schema.json`](schemas/manifest.schema.json): the artifact manifest, `quiver.yaml`.
 
+Published at <https://agent-quiver.github.io/spec/latest/>; the schemas are served at
+`https://agent-quiver.github.io/schemas/v1/`.
+
 ## Why a standard
 
 Skills and rules for agents are spreading as loose files. A pack gives them what code already has: one home,

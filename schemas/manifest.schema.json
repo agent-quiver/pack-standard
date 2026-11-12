@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/agent-quiver/pack-standard/main/schemas/manifest.schema.json",
+  "$id": "https://agent-quiver.github.io/schemas/v1/manifest.schema.json",
   "title": "Quiver artifact manifest (quiver.yaml)",
   "description": "Protocol-neutral contract for one registry artifact. Manifest spec v0.2: a MINOR is additive, a MAJOR is breaking and ships a migration.",
   "type": "object",
